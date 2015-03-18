@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import bencode.impl.BEncodeParser;
 import bencode.impl.BEncodeWriter;
 
-public final class BEncode {
+public final class BEncodeFactory {
     public Writer getWriter(final OutputStream out) {
         return new BEncodeWriter(out);
     }
